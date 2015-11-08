@@ -20,6 +20,10 @@ data.02$Global_active_power <- as.numeric(as.character(data.02$Global_active_pow
 data.02$Global_reactive_power <- as.numeric(as.character(data.02$Global_reactive_power))
 data.02$Voltage <- as.numeric(as.character(data.02$Voltage))
 
+data.02$Sub_metering_1 <- as.numeric(as.character(data.02$Sub_metering_1))
+data.02$Sub_metering_2 <- as.numeric(as.character(data.02$Sub_metering_2))
+data.02$Sub_metering_3 <- as.numeric(as.character(data.02$Sub_metering_3))
+
 #------------------------------------------------------------------------------------------------------------------------------------
 # Plot 3
 # 

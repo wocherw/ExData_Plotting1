@@ -16,7 +16,7 @@ rm(data.02.02)
 data.02$date_time <- strptime(paste(data.02$Date, data.02$Time), "%d/%m/%Y %H:%M:%S")
 
 # Convert Global Active Power to Numeric
-data.02$Global_active_power <- as.numeric(as.character(data.021$Global_active_power))
+data.02$Global_active_power <- as.numeric(as.character(data.02$Global_active_power))
 
 #------------------------------------------------------------------------------------------------------------------------------------
 # Plot 2
