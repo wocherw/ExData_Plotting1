@@ -16,7 +16,11 @@ data.02$date_time <- strptime(paste(data.02$Date, data.02$Time), "%d/%m/%Y %H:%M
 rm(data01)
 
 # Convert Global Active Power to Numeric
-data.02$Global_active_power <- as.numeric(as.character(data.021$Global_active_power))
+data.02$Global_active_power <- as.numeric(as.character(data.02$Global_active_power))
+
+data.02$Sub_metering_1 <- as.numeric(as.character(data.02$Sub_metering_1))
+data.02$Sub_metering_2 <- as.numeric(as.character(data.02$Sub_metering_2))
+data.02$Sub_metering_3 <- as.numeric(as.character(data.02$Sub_metering_3))
 
 #------------------------------------------------------------------------------------------------------------------------------------
 # Plot 3
